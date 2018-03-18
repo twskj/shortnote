@@ -1,0 +1,2 @@
+# shortnote
+Revisit CS topics

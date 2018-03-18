@@ -1,7 +1,6 @@
 arr = [29, 5, 19, 20, 27, 30, 10, 24, 19, 17]
 print(arr)
 
-
 def heapsort(arr):
 
     # fix = fix1 # min heap
@@ -10,7 +9,7 @@ def heapsort(arr):
     for i in xrange(len(arr),-1,-1):
         fix(arr, len(arr), i)
     print arr
-    # arr.append(55) <-- insert new value
+    # arr.append(55) <-- new value can be insert 
     # fix(arr,len(arr),0) <-- recompile the heap
     # print(arr)
 
@@ -23,8 +22,6 @@ def heapsort(arr):
     print arr
 
 # min_heapify
-
-
 def fix1(arr, size, index):
 
     minIdx = index
@@ -42,8 +39,6 @@ def fix1(arr, size, index):
         fix1(arr, size, minIdx)
 
 # max_heapify
-
-
 def fix2(arr, size, index):
     maxIdx = index
     offset = index * 2
